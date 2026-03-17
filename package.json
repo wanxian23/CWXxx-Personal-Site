@@ -1,5 +1,4 @@
 {
-  "homepage": "https://wanxian23.github.io/CWXxx-Personal-Site/",
   "name": "cwx-personal-site",
   "version": "0.1.0",
   "private": true,
@@ -15,11 +14,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "react-scripts start",
-  "build": "react-scripts build"
-},
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
